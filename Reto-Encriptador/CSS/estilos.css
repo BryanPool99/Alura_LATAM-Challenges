@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+:root {
+  /* DARK BLUE*/
+  --db1: #609ed4;
+  --db2: #356ea9;
+  --db3: #0a3871;
+  --db4: #072b61;
+  --db5: #052051;
+  /*Gray*/
+  --g1: #ced4da;
+  --g2: #adb5bd;
+  --g3: #868e96;
+  --g4: #495057;
+  --g5: #343a40;
+  /*LIGHT BLUE*/
+  --lb1: #f3f5fc;
+  --lb2: #eff1fa;
+  --lb3: #e9ecf8;
+  --lb4: #aab2d5;
+  --lb5: #757fb2;
+}
+
+body {
+  display: flex;
+  background: var(--lb1);
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  width: 100vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 0.15fr 1fr 0.5fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 10px;
+  justify-items: center;
+}
+
+.logo {
+  grid-area: 1 / 1 / 2 / 2;
+  margin: 40px;
+}
+
+.inputText {
+  grid-area: 1 / 2 / 2 / 3;
+  margin: 6rem 0 2rem 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.inputText textarea {
+  border: none;
+  width: 90%;
+  min-height: 60%;
+  margin: 2rem auto;
+  font-size: 32px;
+  background: var(--lb1);
+  outline: none;
+  color: var(--db3);
+}
+
+::placeholder {
+  color: var(--db3);
+}
+
+.inputText .alert-info {
+  margin: 1rem auto;
+  width: 90%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.alert-info img {
+  margin: 0 1rem 0 0;
+}
+
+.alert-info h2 {
+  font-size: 12px;
+}
+
+.buttons {
+  margin: 0 auto;
+  width: 100%;
+  min-height: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn-Encriptar,
+.btn-Desencriptar {
+  width: 328px;
+  height: 67px;
+  border-radius: 24px;
+  -webkit-border-radius: 24px;
+  -moz-border-radius: 24px;
+  -ms-border-radius: 24px;
+  -o-border-radius: 24px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  transition: all 200ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+  -webkit-transition: all 200ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+  -moz-transition: all 200ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+  -ms-transition: all 200ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+  -o-transition: all 200ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+}
+
+.btn-Encriptar:hover,
+.btn-Desencriptar:hover {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.btn-Encriptar {
+  background: var(--db3);
+  color: #fff;
+  border: none;
+}
+
+.btn-Encriptar:hover {
+  background: var(--db4);
+}
+
+.btn-Desencriptar {
+  background: transparent;
+  color: var(--db3);
+  border: 1px solid #0a3871;
+}
+
+.btn-Desencriptar:hover {
+  background: var(--lb2);
+}
+
+.outputText {
+  background: #fff;
+  grid-area: 1 / 3 / 2 / 4;
+  width: 85%;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 32px;
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+.outputText.active {
+  justify-content: space-evenly;
+  animation: show 2s forwards ease-in-out;
+  -webkit-animation: show 2s forwards ease-in-out;
+}
+
+.cardPrev {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 32px;
+  text-align: center;
+}
+
+.Text-Enc {
+  display: none;
+  border: none;
+  margin: 2rem auto;
+  font-size: 32px;
+  outline: none;
+  color: var(--g4);
+}
+
+.cardPrev.active {
+  max-width: 90%;
+  min-height: 12rem;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.Text-Enc.active {
+  display: block;
+  width: 20rem;
+  min-height: 30rem;
+  border: none;
+  max-width: 95%;
+  font-size: 24px;
+  text-align: left;
+  line-height: 36px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0 0 16px 0;
+}
+
+.description {
+  font-size: 16px;
+}
+
+.box {
+  animation: show 2s forwards;
+  -webkit-animation: show 2s forwards;
+}
+
+@keyframes hide {
+  50% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+  }
+
+  70% {
+    opacity: 0.2;
+  }
+
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}
+
+@keyframes show {
+  50% {
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+  60% {
+    opacity: 0.5;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+.box.hide {
+  animation: hide 2s forwards;
+  -webkit-animation: hide 2s forwards;
+}
+
+.box.remove {
+  display: none;
+}
+
+.btn-Copy {
+  display: none;
+  width: 95%;
+  height: 67px;
+  border: 1px solid var(--db3);
+  border-radius: 24px;
+  margin: 1rem 0;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--db3);
+  transition: all 500ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+  -webkit-transition: all 500ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+  -moz-transition: all 500ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+  -ms-transition: all 500ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+  -o-transition: all 500ms cubic-bezier(.03, 1.47, 1, -0.5) 200ms;
+}
+
+.btn-Copy:hover {
+  background: var(--lb2);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.btn-Copy.active {
+  display: block;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+@media only screen and (max-width: 1090px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .logo {
+    margin: 40px 0 0;
+  }
+
+  .inputText {
+    margin: 4rem auto 0;
+    width: 80%;
+  }
+
+  .inputText textarea {
+    min-height: auto;
+  }
+
+  .outputText {
+    width: 75%;
+    min-height: 130px;
+    margin: 3rem auto;
+  }
+  .outputText.active{
+    min-height: auto;
+  }
+  .img-Muñeco {
+    display: none;
+  }
+
+  .cardPrev {
+    width: 80%;
+    margin: 1rem;
+  }
+  .cardPrev.active{
+    min-height: auto;
+  }
+  .Text-Enc.active{
+    width: 75%;
+    min-height: auto;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .logo img {
+    width: 60%;
+  }
+
+  .inputText {
+    width: 100%;
+    margin: 3rem 0;
+  }
+
+  .inputText textarea {
+    font-size: 24px;
+    height: 5rem;
+    min-height: auto;
+  }
+
+  .btn-Encriptar,
+  .btn-Desencriptar {
+    width: 300px;
+  }
+
+  .outputText {
+    width: 95%;
+    margin-top: 0rem;
+  }
+  .cardPrev.active{
+    margin: 0.5rem;
+  }
+  .Text-Enc.active{
+    min-height: auto;
+  }
+}
