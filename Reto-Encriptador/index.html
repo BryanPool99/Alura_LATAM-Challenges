@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto Alura-ONE:Encriptador</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <main>
+        <section class="logo">
+            <h1><img src="img/logo.png" alt="logo-Alura"></h1>
+        </section>
+        <section class="inputText">
+            <textarea name="text" id="text" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="alert-info">
+                <img src="img/Vector.png" alt="logo-information">
+                <h2>Solo letras minúsculas y sin acentos</h2>
+            </div>
+            <div class="buttons">
+                <button class="btn-Encriptar" id="btn_E">Encriptar</button>
+                <button class="btn-Desencriptar" id="btn_D">Desencriptar</button>
+            </div>
+        </section>
+        <section class="outputText">
+            <div class="cardPrev">
+                <textarea class="Text-Enc"></textarea>
+                <div class="box">
+                    <figure class="img-Muñeco">
+                    <img src="img/Muñeco.png" alt="Muñeco">
+                    </figure>
+                    <div class="title">
+                        <h2>Ningún mensaje fue encontrado</h2>
+                    </div>
+                    <div class="description">
+                        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="btn-Copy" id="btn_C">Copiar</button>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
