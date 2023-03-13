@@ -15,9 +15,7 @@ Se necesita instalar Java windowBuilder [WindowBuilder](https://www.eclipse.org/
 
 ## Ejecutando las pruebas ⚙️
 
-![Demo del Reto convertidor](https://trello.com/1/cards/640b24e2f5dc43834acb193d/attachments/640b24e3f5dc43834acb1b34/download/Dise%C3%B1o_sin_t%C3%ADtulo.gif)
-
-
+![Demo del Reto convertidor](https://trello.com/1/cards/640b24e2f5dc43834acb193d/attachments/640b24e3f5dc43834acb1b34/download/Dise%C3%B1o_sin_t%C3%ADtulo.gif).
 
 ## Despliegue del Encriptador📦
 
