@@ -15,7 +15,7 @@ Se necesita instalar Java windowBuilder [WindowBuilder](https://www.eclipse.org/
 
 ## Ejecutando las pruebas ⚙️
 
-![Demo del Reto convertidor](https://user-images.githubusercontent.com/84214192/224793721-7ec4dd88-9bbd-4c42-9e55-48bd96ae4bae.gif)
+![Demo del Reto convertidor](C:\Users\Bryan\Downloads\retoConvertidor.gif)
 
 
 ## Despliegue del Encriptador📦
