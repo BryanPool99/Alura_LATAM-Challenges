@@ -5,12 +5,8 @@ En este repositorio encontraras la solucion a los retos(challenges) de la plataf
 
 ### Pre-requisitos 📋
 
-Para el proyecto del encriptador solo necesitaras [nodeJS](https://nodejs.org/es/)
-Para el proyecto del convertidor necesitaras un IDE como [Eclipse](https://www.eclipse.org/downloads/).
-
-```
-Da un ejemplo
-```
+* Para el proyecto del encriptador solo necesitaras [nodeJS](https://nodejs.org/es/).
+* Para el proyecto del convertidor necesitaras un IDE como [Eclipse](https://www.eclipse.org/downloads/).
 
 ### Instalación 🔧
 
@@ -19,7 +15,7 @@ Se necesita instalar Java windowBuilder [WindowBuilder](https://www.eclipse.org/
 
 ## Ejecutando las pruebas ⚙️
 
-_Explica como ejecutar las pruebas automatizadas para este sistema_
+![Demo del Reto convertidor](https://trello.com/1/cards/640b24e2f5dc43834acb193d/attachments/640b24e3f5dc43834acb1b34/download/Dise%C3%B1o_sin_t%C3%ADtulo.gif)
 
 
 
