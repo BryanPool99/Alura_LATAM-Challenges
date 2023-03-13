@@ -12,12 +12,6 @@ En este repositorio encontraras la solucion a los retos(challenges) de la plataf
 
 Se necesita instalar Java windowBuilder [WindowBuilder](https://www.eclipse.org/windowbuilder/)
 
-
-## Ejecutando las pruebas ⚙️
-
-![Demo del Reto convertidor](C:\Users\Bryan\Downloads\retoConvertidor.gif)
-
-
 ## Despliegue del Encriptador📦
 
 El despliegue lo realzie mediante vercel
