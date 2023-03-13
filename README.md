@@ -1,4 +1,4 @@
-# Retos de AluraLatam ![AluraLatam](https://i0.wp.com/edtechreviews.net/wp-content/uploads/2022/02/alura-logo.png?resize=272%2C185&ssl=1)
+# Retos de AluraLatam ![AluraLatam](https://avatars.githubusercontent.com/u/64977466?s=280&v=4)
 
 En este repositorio encontraras la solucion a los retos de la paltaforma AluraLatam
 
