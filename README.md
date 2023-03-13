@@ -1,18 +1,12 @@
 # Retos de AluraLatam
 ![AluraLatam](https://avatars.githubusercontent.com/u/64977466?s=280&v=4)
 
-En este repositorio encontraras la solucion a los retos de la paltaforma AluraLatam
-
-## Comenzando 🚀
-
-_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
-
-Mira **Deployment** para conocer como desplegar el proyecto.
-
+En este repositorio encontraras la solucion a los retos(challenges) de la plataforma AluraLatam
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+Para el proyecto del encriptador solo necesitaras [nodeJS](https://nodejs.org/es/)
+Para el proyecto del convertidor necesitaras un IDE como [Eclipse](https://www.eclipse.org/downloads/).
 
 ```
 Da un ejemplo
@@ -22,39 +16,12 @@ Da un ejemplo
 
 Se necesita instalar Java windowBuilder [WindowBuilder](https://www.eclipse.org/windowbuilder/)
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
-
-```
-hasta finalizar
-```
-
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
 
 ## Ejecutando las pruebas ⚙️
 
 _Explica como ejecutar las pruebas automatizadas para este sistema_
 
-### Analice las pruebas end-to-end 🔩
 
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
 
 ## Despliegue del Encriptador📦
 
