@@ -1,4 +1,5 @@
-# Retos de AluraLatam ![AluraLatam](https://avatars.githubusercontent.com/u/64977466?s=280&v=4)
+# Retos de AluraLatam
+![AluraLatam](https://avatars.githubusercontent.com/u/64977466?s=280&v=4)
 
 En este repositorio encontraras la solucion a los retos de la paltaforma AluraLatam
 
