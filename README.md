@@ -14,7 +14,7 @@ Se necesita instalar Java windowBuilder [WindowBuilder](https://www.eclipse.org/
 
 ## Despliegue del Encriptador📦
 
-El despliegue lo realzie mediante vercel
+El despliegue lo realize mediante vercel.
 
 ## Reto Encriptador Construido con 🛠️
 
